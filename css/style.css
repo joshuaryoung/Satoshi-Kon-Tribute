@@ -1,0 +1,181 @@
+*
+{
+  box-sizing: border-box;
+}
+
+html
+{
+  width: 100%;
+  margin: 0;
+  background-color: dimgrey;
+}
+
+body
+{
+  height: 100%;
+  width: 100%;
+  font-family: 'Bitter', serif;
+  margin: auto;
+  background-color: white;
+}
+
+@media only screen and (min-width: 900px)
+{
+  body
+  {
+    margin: auto;
+    margin-top: -1%;
+    width: 78%;
+    padding: 0% 9% 0% 9%;
+  }
+}
+
+#body-jumbotron-well
+{
+  margin-top: 3%;
+}
+
+#body-jumbotron
+{
+  padding: 3% 3% 3% 3%;
+  margin-bottom: 3%;
+}
+
+#jumbotron-text
+{
+  margin: 0;
+}
+
+@media only screen and (min-width: 900px)
+{
+  #body-jumbotron-well
+  {
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  #jumbotron-text
+  {
+    font-size: 120px;
+  }
+}
+
+.header-image
+{
+  max-width: 89%;
+  display: block;
+  margin: auto;
+}
+
+#image-text-container
+{
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 5%;
+  width: 90%;
+}
+
+#image-description-text
+{
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+}
+
+#body-first-paragraph
+{
+  margin-top: 5%;
+}
+
+#body-second-paragraph
+{
+  margin: auto;
+  margin-top: 7%;
+  line-height: 27px;
+  width: 94%;
+}
+
+#body-third-paragraph
+{
+  margin: auto;
+  margin-top: 0%;
+  line-height: 27px;
+  width: 94%;
+}
+
+#body-image-1{
+  display: block;
+  margin: auto;
+  margin-bottom: 2%;
+  max-width: 94%;
+  margin-top: 4%;
+}
+
+#body-image-2{
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 4%;
+  max-width: 94%;
+  display: block;
+}
+
+#ending-paragraph
+{
+  margin-top: 6%;
+}
+
+@media only screen and (min-width: 900px)
+{
+  #image-text-container
+  {
+
+  }
+
+  #image-description-text
+  {
+    font-size: 23px;
+    line-height: 2;
+    width: 50%;
+    margin: auto;
+  }
+
+  #body-first-paragraph
+  {
+
+margin-top: 0%;
+
+margin-bottom: 2%;
+
+}
+
+  #body-second-paragraph
+  {
+
+margin-top: 2%;
+
+}
+
+  #body-third-paragraph
+  {
+
+margin-top: 2%;
+
+}
+
+  #body-image-1{
+
+margin-top: 7%;
+
+}
+
+  #body-image-2{
+
+margin-top: 8%;
+
+}
+
+  #ending-paragraph
+  {
+
+  }
+}
